@@ -21,7 +21,7 @@ const EditProfile = () => {
         bio: user?.bio || '',
         gender: user?.gender || '',
     });
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
 
     const navigate = useNavigate();
     const dispatch = useDispatch();

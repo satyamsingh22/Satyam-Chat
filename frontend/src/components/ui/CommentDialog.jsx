@@ -15,7 +15,7 @@ const CommentDialog = ({ open, setOpen }) => {
     const { selectedPost, posts } = useSelector(store => store.post);
     const [comment, setComment] = useState([]);  // Initialize with an empty array
     const dispatch = useDispatch();
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
 
     // Update the comment state whenever the selectedPost changes
     useEffect(() => {

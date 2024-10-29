@@ -5,7 +5,7 @@ import { setSuggestedUsers } from "@/redux/authSlice";
 
 const useGetSuggestedUsers = () => {
     const dispatch = useDispatch();
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
     
     useEffect(() => {
         const fetchSuggestedUsers= async () => {

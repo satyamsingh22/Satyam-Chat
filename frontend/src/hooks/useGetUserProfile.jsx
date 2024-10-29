@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 
 const useGetUserProfile = (userId) => {
     const dispatch = useDispatch();
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
     // const [userProfile, setUserProfile] = useState(null);
     useEffect(() => {
         const fetchUserProfile = async () => {

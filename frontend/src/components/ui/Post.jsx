@@ -18,7 +18,7 @@ const Post = ({ post }) => {
   const [text, setText] = useState("");
   const navigate = useNavigate()
   const [open, setOpen] = useState(false);
-  const url = "http://localhost:8000";
+  const url = "https://satyam-chat.onrender.com";
   const { user } = useSelector(store => store.auth);
   const { posts } = useSelector(store => store.post);
   

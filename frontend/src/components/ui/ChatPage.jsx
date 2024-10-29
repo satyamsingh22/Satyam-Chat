@@ -12,7 +12,7 @@ import { setMessage } from "@/redux/chatSlice";
 const ChatPage = () => {
   const { user, suggestedUsers, selectedUser } = useSelector((store) => store.auth);
   const [textMessage, setTextMessage] = useState('');
-  const url = "http://localhost:8000";
+  const url = "https://satyam-chat.onrender.com";
   const { onlineUsers = [], messages } = useSelector(store => store.chat);
   const dispatch = useDispatch();
 

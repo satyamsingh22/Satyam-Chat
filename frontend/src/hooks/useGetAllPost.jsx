@@ -5,7 +5,7 @@ import axios from "axios";
 
 const useGetAllPost = () => {
     const dispatch = useDispatch();
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
     
     useEffect(() => {
         const fetchAllPost = async () => {

@@ -5,7 +5,7 @@ import { setMessage } from "@/redux/chatSlice";
 
 const useGetAllMessage = (selectedUser) => {
     const dispatch = useDispatch();
-    const url = "http://localhost:8000";
+    const url = "https://satyam-chat.onrender.com";
     
     useEffect(() => {
         const fetchAllMessage = async () => {

@@ -17,7 +17,7 @@ const CreatePost = ({ open, setOpen }) => {
     const [imagePreview, setImagePreview] = useState('');
     const [caption, setCaption] = useState('');
     const [loading, setLoading] = useState(false);
-    const url = 'http://localhost:8000'; // Your backend URL
+    const url = 'https://satyam-chat.onrender.com'; // Your backend URL
     const {user} = useSelector(store=>store.auth)
     const dispatch = useDispatch()
     const {posts} = useSelector(store=>store.post)
