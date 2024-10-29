@@ -3,7 +3,7 @@ import { Heart, Home, LogOut, MessageCircle, PlusSquare, Search, TrendingUp } fr
 import { Avatar, AvatarImage, AvatarFallback } from './avatar';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { toast } from 'react-toastify'; // Assuming you're using react-toastify for toast messages
+import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import store from '@/redux/Store';
 import { setAuthUser } from '@/redux/authSlice';
