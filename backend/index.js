@@ -17,12 +17,7 @@ const _dirname = path.resolve()
 connectDB()
 
 // Connect to database
-app.get("/",(_,res)=>{
-    return res.status(200).json({
-        message:"I am coming from backend",
-        success:true
-    })
-})
+
 
 
 
